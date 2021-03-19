@@ -14,12 +14,12 @@
 <body>
     <header>
         <div class=" black">
-            <a class="grey-text" href=""><i class="small material-icons">mail</i>pierremalardier1991@gmail.com</a>
-            <a class="grey-text" href=""><i class="small material-icons">phone</i>0788856629</a>
+            <a class="grey-text" href="mailto:pierremalardier1991@gmail.com"><i class="small material-icons">mail</i>pierremalardier1991@gmail.com</a>
+            <a class="grey-text" href="tel:+33788856629"><i class="small material-icons">phone</i>0788856629</a>
         </div>
         <nav class="white">
             <ul>
-                <li><a href="#"><img src="./img/logo2_pierre.png" width="250"></a></li>
+                <li><a href="https://www.linkedin.com/in/pierre-malardier-8a4b10124/"><img src="./img/logo2_pierre.png" width="250"></a></li>
                 <li><a class="black-text" href="#">Mes projets</a></li>
                 <li><a class="black-text" href="#">CV</a></li>
             </ul>
