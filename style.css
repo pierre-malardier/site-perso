@@ -1,0 +1,7 @@
+main{
+    background-image: url(./img/nature.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
