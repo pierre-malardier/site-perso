@@ -48,7 +48,7 @@
             <a class="waves-effect waves-light btn black ">Mes projets</a>
         </p>
         <div class="row">
-            <a href="./projets/discussion/index.php">
+            <a href="#">
                 <div class="col s4 ">
                     <div class="card">
                         <div class="card-image">
@@ -59,13 +59,13 @@
                             <p>Ce projet est un site sur lequel j'ai crée un module de discussion.</p>
                         </div>
                         <div class="card-action center-align ">
-                            <a class="black-text " href="./projets/discussion/index.php">Voir le projet</a>
+                            <a class="black-text " href="#">Voir le projet</a>
                         </div>
                     </div>
             </a>
         </div>
         <div class="col s4 ">
-            <a href="./projets/blog/index.php">
+            <a href="#">
                 <div class="card">
                     <div class="card-image">
                         <img src="./ressource/img/blog.PNG">
@@ -75,13 +75,13 @@
                         <p>Réalisation d'un blog avec page admin et possibilité d'ajouter effacer ou modifier des articles.</p>
                     </div>
                     <div class="card-action center-align ">
-                        <a class="black-text" href="./projets/blog/index.php">Voir le projet</a>
+                        <a class="black-text" href="#">Voir le projet</a>
                     </div>
                 </div>
             </a>
         </div>
         <div class="col s4 ">
-            <a href="./projets/memory/index.php">
+            <a href="#">
                 <div class="card">
                     <div class="card-image">
                         <img src="./ressource/img/memory.PNG">
@@ -91,7 +91,7 @@
                         <p>Réalisation du jeu Memory.</p>
                     </div>
                     <div class="card-action center-align ">
-                        <a class="black-text" href="./projets/memory/index.php">Voir le projet</a>
+                        <a class="black-text" href="#">Voir le projet</a>
                     </div>
                 </div>
             </a>
