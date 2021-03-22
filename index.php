@@ -20,11 +20,11 @@
         </div>
         <nav class="white">
             <div class="nav-wrapper grey">
-                <a href="#" class="brand-logo"><img src="./img/logo2_pierre .png" width="70%"></a>
+                <a href="#" class="brand-logo"><img src="./ressource/img/logo2_pierre .png" width="70%"></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a class="black-text" href="#">Mes compétences</a></li>
-                    <li><a class="black-text" href="#">Mes projets</a></li>
-                    <li><a id="cv" class="black-text">CV</a></li>
+                    <li><a class="black-text" href="#compétences">Mes compétences</a></li>
+                    <li><a class="black-text" href="#projets">Mes projets</a></li>
+                    <li><a id="cv" class="black-text" href="./ressource/pierre-malardier-cv.pdf">CV</a></li>
                 </ul>
             </div>
         </nav>
@@ -33,14 +33,16 @@
     <main>
     </main>
     <section>
+        <balise id="compétences"></balise>
         <p class="center-align">
-            <a class="waves-effect waves-light btn black ">Mes compétences</a>
+            </a><a class="waves-effect waves-light btn black ">Mes compétences</a>
         </p>
         <div class="center-align">
-            <img class="" src="./img/langage-web-removebg-preview.png" width="70%">
+            <img class="" src="./ressource/img/langage-web-removebg-preview.png" width="80%">
         </div>
     </section>
-    <section class="black">
+    <section class="black card-list">
+        <balise id="projets"></balise>
         <p class="center-align">
             <a class="waves-effect waves-light btn black ">Mes projets</a>
         </p>
@@ -49,7 +51,7 @@
                 <div class="col s4 ">
                     <div class="card">
                         <div class="card-image">
-                            <img src="./img/discussion.PNG">
+                            <img src="./ressource/img/discussion.PNG">
                             <span class="card-title">Discussion</span>
                         </div>
                         <div class="card-content">
@@ -65,7 +67,7 @@
             <a href="#">
                 <div class="card">
                     <div class="card-image">
-                        <img src="./img/blog.PNG">
+                        <img src="./ressource/img/blog.PNG">
                         <span class="card-title">Blog</span>
                     </div>
                     <div class="card-content">
@@ -81,7 +83,7 @@
             <a href="#">
                 <div class="card">
                     <div class="card-image">
-                        <img src="./img/memory.PNG">
+                        <img src="./ressource/img/memory.PNG">
                         <span class="card-title">Memory</span>
                     </div>
                     <div class="card-content">
@@ -93,6 +95,9 @@
                 </div>
             </a>
         </div>
+        </div>
+        <div class="center-align">
+            <a href="#"><img src="./ressource/img/haut.png" width="10%"></img></a>
         </div>
     </section>
     <script type="text/javascript" src="script.js"></script>

@@ -1,5 +1,5 @@
 main{
-    background-image: url(./img/nature.jfif);
+    background-image: url(./ressource/img/nature.jfif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -9,7 +9,12 @@ main{
 .card{
     
     transition: transform .5s ease;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px;
 }
 .card:hover {
     transform: scale(1.5);
+}
+.card-list{
+    height: 90vh;
 }
