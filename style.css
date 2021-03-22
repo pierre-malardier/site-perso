@@ -3,5 +3,13 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
+    margin-top: 5%;
+}
+.card{
+    
+    transition: transform .5s ease;
+}
+.card:hover {
+    transform: scale(1.5);
 }

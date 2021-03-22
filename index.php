@@ -13,16 +13,20 @@
 
 <body>
     <header>
-        <div class=" black">
-            <a class="grey-text" href="mailto:pierremalardier1991@gmail.com"><i class="small material-icons">mail</i>pierremalardier1991@gmail.com</a>
-            <a class="grey-text" href="tel:+33788856629"><i class="small material-icons">phone</i>0788856629</a>
+        <div class="top_nav black">
+            <a class="grey-text center" href="mailto:pierremalardier1991@gmail.com"><i class="small material-icons">mail</i>pierremalardier1991@gmail.com</a>
+            <a class="grey-text" href="tel:+33788856629"><i class="small material-icons">phone</i>+33(0)788856629</a>
+            <a class=""><img src=""></a>
         </div>
         <nav class="white">
-            <ul>
-                <li><a href="https://www.linkedin.com/in/pierre-malardier-8a4b10124/"><img src="./img/logo2_pierre.png" width="250"></a></li>
-                <li><a class="black-text" href="#">Mes projets</a></li>
-                <li><a class="black-text" href="#">CV</a></li>
-            </ul>
+            <div class="nav-wrapper grey">
+                <a href="#" class="brand-logo"><img src="./img/logo2_pierre .png" width="70%"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="black-text" href="#">Mes compétences</a></li>
+                    <li><a class="black-text" href="#">Mes projets</a></li>
+                    <li><a id="cv" class="black-text">CV</a></li>
+                </ul>
+            </div>
         </nav>
 
     </header>
@@ -32,20 +36,17 @@
         <p class="center-align">
             <a class="waves-effect waves-light btn black ">Mes compétences</a>
         </p>
-        <div class="row">
-            <img class="col s2" src="./img/logo html.png" width="150">
-            <img class="col s2" src="./img/logo-css.png" width="150">
-            <img class="col s2" src="./img/logo-php.png" width="150">
-            <img class="col s2" src="./img/MySQL-Logo.png" width="150">
+        <div class="center-align">
+            <img class="" src="./img/langage-web-removebg-preview.png" width="70%">
         </div>
     </section>
-    <section>
+    <section class="black">
         <p class="center-align">
             <a class="waves-effect waves-light btn black ">Mes projets</a>
         </p>
         <div class="row">
             <a href="#">
-                <div class="col s6 ">
+                <div class="col s4 ">
                     <div class="card">
                         <div class="card-image">
                             <img src="./img/discussion.PNG">
@@ -60,7 +61,7 @@
                     </div>
             </a>
         </div>
-        <div class="col s6 ">
+        <div class="col s4 ">
             <a href="#">
                 <div class="card">
                     <div class="card-image">
@@ -76,8 +77,25 @@
                 </div>
             </a>
         </div>
+        <div class="col s4 ">
+            <a href="#">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./img/memory.PNG">
+                        <span class="card-title">Memory</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Réalisation du jeu Memory.</p>
+                    </div>
+                    <div class="card-action center-align ">
+                        <a class="black-text" href="#">Voir le projet</a>
+                    </div>
+                </div>
+            </a>
+        </div>
         </div>
     </section>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
