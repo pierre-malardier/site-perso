@@ -32,6 +32,13 @@
 
     </header>
     <main>
+        <article class="description">
+            <h1> Web développeur en formation à la Plateforme_</h1>
+            <p>
+                Actuellement en formation à la Plateforme _ , je suis à la recherche d'une alternance pour ma deuxiéme année de formation pour la rentrée de septembre 2021.
+
+            </p>
+        </article>
     </main>
     <section>
         <balise id="compétences"></balise>
