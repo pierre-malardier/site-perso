@@ -113,7 +113,7 @@
             <div class="card-body">
                 <h5 class="card-title">Blog</h5>
                 <p class="card-text">Réalisation d'un blog avec page admin et possibilité d'ajouter effacer ou modifier des articles.</p>
-                <a class="btn text-light" href="#">Voir le projet</a>
+                <a class="btn text-light" href="./projets/blog/index.php">Voir le projet</a>
             </div>
         </div>
         <div class="card m-5 bg-dark text-light" style="width: 25rem;">
