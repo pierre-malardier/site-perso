@@ -30,23 +30,27 @@
                         <span class="icon-bar"></span>
                     </a>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="#myModal" role="button" data-toggle="modal" class="nav-link">Mes Compétences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projets">Mes projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./ressource/pierre-malardier-cv.pdf">CV</a>
-                        </li>
+                <div class="collapse navbar-collapse d-flex justify-content-around " id="navbarSupportedContent">
+                    <div class="d-flex">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#myModal" role="button" data-toggle="modal" class="nav-link">Mes Compétences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projets">Mes projets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./ressource/pierre-malardier-cv.pdf">CV</a>
+                            </li>
+                    </div>
+                    <div class="d-flex justify-content-right">
                         <li class="nav-item">
                             <a href="https://www.linkedin.com/in/pierre-malardier-8a4b10124/"><img class="logo-social" src="./ressource/img/linkedin.png" alt="logo linkedin"></a>
                         </li>
                         <li class="nav-item">
                             <a href="https://github.com/pierre-malardier"><img class="logo-social" src="./ressource/img/GitHub.png" alt="logo github"></a>
                         </li>
+                    </div>
                     </ul>
                 </div>
         </nav>
@@ -94,35 +98,31 @@
             </div>
         </div>
     </div>
-    <h2 class="d-flex justify-content-center">Mes projets</h2>
-    <section class="d-flex justify-content-around">
-
-        <div class="card m-5" style="width: 18rem;">
-            <img src="./ressource/img/discussion.PNG" alt="projet discussion">
+    <h2 class="d-flex">Mes projets</h2>
+    <section class="d-flex">
+        <div class="card m-5 bg-dark text-light" style="width: 25rem;">
+            <img class="rounded" src="./ressource/img/discussion.PNG" alt="projet discussion">
             <div class="card-body">
                 <h5 class="card-title">Discussion</h5>
                 <p class="card-text">Ce projet est un site sur lequel j'ai crée un module de discussion.</p>
-                <a class="btn" href="#">Voir le projet</a>
+                <a class="btn text-light" href="#">Voir le projet</a>
             </div>
         </div>
-        <div class="card m-5" style="width: 18rem;">
-            <img src="./ressource/img/blog.PNG" alt="projet blog">
+        <div class="card m-5 bg-dark text-light" style="width: 25rem;">
+            <img class="rounded" src="./ressource/img/blog.PNG" alt="projet blog">
             <div class="card-body">
                 <h5 class="card-title">Blog</h5>
                 <p class="card-text">Réalisation d'un blog avec page admin et possibilité d'ajouter effacer ou modifier des articles.</p>
-                <a class="btn" href="#">Voir le projet</a>
+                <a class="btn text-light" href="#">Voir le projet</a>
             </div>
         </div>
-        <div class="card m-5" style="width: 18rem;">
-            <img src="./ressource/img/memory.PNG" alt="projet memory">
-            <div class="card-body">
+        <div class="card m-5 bg-dark text-light" style="width: 25rem;">
+            <img class="rounded" src="./ressource/img/memory.PNG" alt="projet memory">
+            <div class="card-body ">
                 <h5 class="card-title">Memory</h5>
                 <p class="card-text">Réalisation du jeu Memory.</p>
-                <a class="btn" href="#">Voir le projet</a>
+                <a class="btn text-light" href="#">Voir le projet</a>
             </div>
-        </div>
-        <div class="center-align">
-            <a href="#"><img src="./ressource/img/haut.png" width="10%" alt="fleche haut"></a>
         </div>
     </section>
     <footer class="bg-dark fixed-bottom">

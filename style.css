@@ -45,11 +45,18 @@ main{
 .close:hover{
     transform: scale(2);
 }
-.sr_only{
-    display: block;
+.sr-only{
+    display: none;
 }
-@media (min-width: 992px){
-    .sr_only{
-        display: none;
+
+@media (max-width: 992px) {
+    .sr-only {
+        display: block;
     }
+}
+.card{
+    transition: transform .4s ease-in-out;
+}
+.card:hover {
+    transform:scale(1.2);
 }
