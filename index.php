@@ -105,7 +105,7 @@
             <div class="card-body">
                 <h5 class="card-title">Discussion</h5>
                 <p class="card-text">Ce projet est un site sur lequel j'ai crée un module de discussion.</p>
-                <a class="btn text-light" href="#">Voir le projet</a>
+                <a class="btn text-light" href="./projets/discussion/index.php">Voir le projet</a>
             </div>
         </div>
         <div class="card m-5 bg-dark text-light" style="width: 25rem;">
@@ -121,7 +121,7 @@
             <div class="card-body ">
                 <h5 class="card-title">Memory</h5>
                 <p class="card-text">Réalisation du jeu Memory.</p>
-                <a class="btn text-light" href="#">Voir le projet</a>
+                <a class="btn text-light" href="./projets/memory/index.php">Voir le projet</a>
             </div>
         </div>
     </section>
