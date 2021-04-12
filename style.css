@@ -3,10 +3,10 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
-    margin-top: 5%;
+    height: 100vh;
+    
 }
-.card{
+/* .card{
     
     transition: transform .5s ease;
     border-radius: 5%;
@@ -14,15 +14,42 @@ main{
 }
 .card:hover {
     transform: scale(1.5);
-}
+} */
 .card-list{
     height: 90vh;
 }
 .description {
+    display: none;
     margin:0 25% 0 25%;
     background-color: white;
     border-radius: 15px;
     box-shadow: 5px 5px 5px black;
-    opacity: 0.8;
+    opacity: 0.9;
 
+}
+.navbar-brand{
+    transition: transform .7s ease-in-out;
+}
+.navbar-brand:hover{
+    transform: rotate(360deg);
+}
+.logo-social{
+    transition: transform .3s ease-in-out;
+}
+.logo-social:hover{
+    transform: scale(1.5);
+}
+.close{
+    transition: transform .3s ease-in-out;
+}
+.close:hover{
+    transform: scale(2);
+}
+.sr_only{
+    display: block;
+}
+@media (min-width: 992px){
+    .sr_only{
+        display: none;
+    }
 }
