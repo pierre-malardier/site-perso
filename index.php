@@ -98,7 +98,7 @@
             </div>
         </div>
     </div>
-    <h2 class="d-flex">Mes projets</h2>
+    <h2 class="d-flex justify-content-center" id="projets">Mes projets</h2>
     <section class="d-flex">
         <div class="card m-5 bg-dark text-light" style="width: 25rem;">
             <img class="rounded" src="./ressource/img/discussion.PNG" alt="projet discussion">
