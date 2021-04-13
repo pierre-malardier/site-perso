@@ -8,7 +8,7 @@
     <meta name="description" content="Pierre Malardier Dév en devenir à la Plateforme_ à la Coding School, l’école de code, ce sont 2 années dédiées à la formation aux métiers du web et du mobile, deux titres reconnus par l’état et un modèle pédagogique unique qui s’adapte aux besoins de chacun." />
     <meta property="og:type" content="siteweb" />
     <meta property="og:titre" content="Pierre Malardier Full Stack Developer" />
-    <meta property="og:image" content="https://pierre-malardier.students-laplateforme.io/ressource/img/icon.png" />
+    <meta property="og:image" content="https://pierre-malardier.students-laplateforme.io/ressource/img/favicon.svg" />
     <title>Pierre Malardier</title>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -16,7 +16,7 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <link rel="icon" type="image" href="./ressource/img/icon.png" alt="icon pm" />
+    <link rel="icon" type="image" href="./ressource/img/favicon.svg" alt="icon pm" />
 </head>
 
 <body>
