@@ -56,9 +56,9 @@
         </nav>
     </header>
     <main>
-        <div class="description d-flex">
+        <div class="description">
             <div class="col">
-                <p class="col justify-content-center"><img src="./ressource/img/moi.png" alt="photo portrait"></p>
+                <p class="col justify-content-center"><img class="img-fluid" src="./ressource/img/moi.png" alt="photo portrait"></p>
                 <h1 class="row justify-content-center m-2">Développeur Web Full Stack en devenir !!!</h1>
                 <p class="row justify-content-center m-"><strong>Actuellement en formation à la PLateforme_, je suis à la recherche d'une alternance pour septembre 2021 pour
                         continuer ma deuxième année à la PLateforme_.</strong>
@@ -98,8 +98,8 @@
         </div>
     </div>
     <h2 class="d-flex justify-content-center" id="projets">Mes projets</h2>
-    <section class="row">
-        <div class="col-sm-3 m-5 mb-5 card  bg-dark text-light" style="width: 25rem;">
+    <section class="row justify-content-around">
+        <div class="col-sm-3  mb-5 card  bg-dark text-light justify-content-center" style="width: 25rem;">
             <img class="rounded" src="./ressource/img/discussion.PNG" alt="projet discussion">
             <div class="card-body">
                 <h5 class="card-title">Discussion</h5>
@@ -107,7 +107,7 @@
                 <a class="btn text-light" href="./projets/discussion/index.php">Voir le projet</a>
             </div>
         </div>
-        <div class="col-sm-3 m-5 mb-5 card  bg-dark text-light" style="width: 25rem;">
+        <div class="col-sm-3  mb-5 card bg-dark text-light" style="width: 25rem;">
             <img class="rounded" src="./ressource/img/blog.PNG" alt="projet blog">
             <div class="card-body">
                 <h5 class="card-title">Blog</h5>
@@ -115,7 +115,7 @@
                 <a class="btn text-light" href="./projets/blog/index.php">Voir le projet</a>
             </div>
         </div>
-        <div class="col-sm-3 m-5 mb-5 card bg-dark text-light" style="width: 25rem;">
+        <div class="col-sm-3  mb-5 card bg-dark text-light" style="width: 25rem;">
             <img class="rounded" src="./ressource/img/memory.PNG" alt="projet memory">
             <div class="card-body ">
                 <h5 class="card-title">Memory</h5>
