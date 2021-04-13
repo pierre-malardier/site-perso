@@ -6,6 +6,9 @@
     <meta name="keywords" content="Pierre Malardier, La plateforme_, dév, web,">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Pierre Malardier Dév en devenir à la Plateforme_ à la Coding School, l’école de code, ce sont 2 années dédiées à la formation aux métiers du web et du mobile, deux titres reconnus par l’état et un modèle pédagogique unique qui s’adapte aux besoins de chacun." />
+    <meta property="og:type" content="siteweb" />
+    <meta property="og:titre" content="Pierre Malardier Full Stack Developer" />
+    <meta property="og:image" content="https://pierre-malardier.students-laplateforme.io/ressource/img/icon.png" />
     <title>Pierre Malardier</title>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
