@@ -121,6 +121,14 @@
                 <a class="btn btn-success text-light" href="./projets/memory/index.php">Voir le projet</a>
             </div>
         </div>
+        <div class="col-sm-3  mb-5 card bg-dark text-light" style="width: 25rem;">
+            <img class="rounded" src="./ressource/img/boutique.PNG" alt="projet boutique">
+            <div class="card-body">
+                <h5 class="card-title">Boutique</h5>
+                <p class="card-text">Nous avons réalisé avec Robin Papazian un collègue une boutique en ligne de ventre de produits pour la maison.</p>
+                <a class="btn btn-success text-light" href="./projets/boutique/index.php">Voir le projet</a>
+            </div>
+        </div>
     </section>
     <footer class="bg-dark fixed-bottom">
         <p class=" d-flex text-light justify-content-center">© 2021 Copyright : Pierre Malardier </p>
