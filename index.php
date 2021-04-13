@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
-    <meta lang="fr">
     <meta name="keywords" content="Pierre Malardier, La plateforme_, dév, web,">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Pierre Malardier Dév en devenir à la Plateforme_ à la Coding School, l’école de code, ce sont 2 années dédiées à la formation aux métiers du web et du mobile, deux titres reconnus par l’état et un modèle pédagogique unique qui s’adapte aux besoins de chacun." />
