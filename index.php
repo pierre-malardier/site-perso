@@ -20,39 +20,38 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a href="#" class="navbar-brand"><img src="./ressource/img/logo_pierre.png" alt="logo Pierre Malardier"></a>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-header">
-                    <a type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <a type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent">
                         <span class="sr-only"><img src="./ressource/img/menu.png" alt="burger menu"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
+                    <a href="#" class="navbar-brand"><img src="./ressource/img/logo_pierre.png" alt="logo Pierre Malardier"></a>
                 </div>
-                <div class="collapse navbar-collapse d-flex justify-content-around " id="navbarSupportedContent">
-                    <div class="d-flex">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="#myModal" role="button" data-toggle="modal" class="nav-link">Mes Compétences</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#projets">Mes projets</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./ressource/pierre-malardier-cv.pdf">CV</a>
-                            </li>
-                    </div>
-                    <div class="d-flex justify-content-right">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav">
                         <li class="nav-item">
+                            <a href="#myModal" role="button" data-toggle="modal" class="nav-link">Mes Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projets">Mes projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ressource/pierre-malardier-cv.pdf">CV</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item-right">
                             <a href="https://www.linkedin.com/in/pierre-malardier-8a4b10124/"><img class="logo-social" src="./ressource/img/linkedin.png" alt="logo linkedin"></a>
                         </li>
                         <li class="nav-item">
                             <a href="https://github.com/pierre-malardier"><img class="logo-social" src="./ressource/img/GitHub.png" alt="logo github"></a>
                         </li>
-                    </div>
                     </ul>
                 </div>
+            </div>
         </nav>
     </header>
     <main>
