@@ -125,7 +125,7 @@
             <img class="rounded" src="./ressource/img/boutique.PNG" alt="projet boutique">
             <div class="card-body">
                 <h5 class="card-title">Boutique</h5>
-                <p class="card-text">Nous avons réalisé avec Robin Papazian un collègue une boutique en ligne de ventre de produits pour la maison.</p>
+                <p class="card-text">Nous avons réalisé avec Robin Papazian un collègue une boutique en ligne de vente de produits pour la maison.</p>
                 <a class="btn btn-success text-light" href="./projets/boutique/index.php">Voir le projet</a>
             </div>
         </div>
