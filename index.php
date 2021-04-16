@@ -6,11 +6,12 @@
     <meta name="google-site-verification" content="HSUhPqoGgzfJLLk4FdJ6nD5yJHK1ZwTUaHXLf1b2ZRc" />
     <meta name="keywords" content="Pierre Malardier, La plateforme_, dév, web,">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio de <strong>Pierre Maardier</strong> Développeur en devenir à La Plateforme_ Marseille." />
-    <meta property="og:type" content="siteweb" />
-    <meta property="og:titre" content="Pierre Malardier Full Stack Developer" />
+    <meta name="description" content="Portfolio de <strong>Pierre Malardier</strong> Développeur en devenir à La Plateforme_ Marseille." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pierre MALARDIER portfolio" />
+    <meta property="og:url" content="https://pierre-malardier.students-laplateforme.io/">
     <meta property="og:image" content="https://pierre-malardier.students-laplateforme.io/ressource/img/favicon.svg" />
-    <title>Pierre Malardier</title>
+    <title>Pierre MALARDIER portfolio</title>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -58,82 +59,82 @@
         </nav>
     </header>
     <main>
-        <div class="description">
-            <div class="col">
-                <p class="col justify-content-center"><img class="img-fluid" src="./ressource/img/moi.png" alt="photo portrait"></p>
-                <h1 class="row justify-content-center m-2">Développeur Web Full Stack en devenir !!!</h1>
-                <p class="row justify-content-center m-3"><strong>Actuellement en formation à la PLateforme_, je suis à la recherche d'une alternance pour septembre 2021 pour
-                        continuer ma deuxième année à la PLateforme_.</strong>
-                </p>
-            </div>
-
-        </div>
-
-    </main>
-    <div class="bs-example">
-        <div id="myModal" class="modal fade" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Mes Compétences</h5>
-                        <a type="button" class="close text-dark" data-dismiss="modal"><i class="bi bi-x-circle-fill"></i></a>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <p class="col"><img src="./ressource/img/html.png" alt="logo hmtl"></p>
-                            <p class="col"><img src="./ressource/img/css.png" alt="logo css"></p>
-                            <p class="col"><img src="./ressource/img/js.png" alt="logo js"></p>
+        <section class="part1">
+            <article class="description">
+                <div class="col">
+                    <p class="col justify-content-center"><img class="img-fluid" src="./ressource/img/moi.png" alt="photo portrait"></p>
+                    <h1 class="row justify-content-center m-2">Développeur Web Full Stack en devenir !!!</h1>
+                    <p class="row justify-content-center m-3"><strong>Actuellement en formation à la PLateforme_, je suis à la recherche d'une alternance pour septembre 2021 pour
+                            continuer ma deuxième année à la PLateforme_.</strong>
+                    </p>
+                </div>
+            </article>
+        </section>
+        <section class="bs-example">
+            <article id="myModal" class="modal fade" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Mes Compétences</h2>
+                            <a type="button" class="close text-dark" data-dismiss="modal"><i class="bi bi-x-circle-fill"></i></a>
                         </div>
-                        <div class="row">
-                            <p class="col"><img src="./ressource/img/php.png" alt="logo php"></p>
-                            <p class="col"><img src="./ressource/img/github2.png" alt="logo github"></p>
-                            <p class="col"><img src="./ressource/img/bootstrap.png" alt="logo bootstrap"></p>
-                        </div>
-                        <div class="row">
-                            <p class="col"><img src="./ressource/img/materialize.png" alt="logo materialize"></p>
-                            <p class="col"><img src="./ressource/img/figma.png" alt="logo figma"></p>
-                            <p class="col"><img src="./ressource/img/adobexd.png" alt="logo adobe xd"></p>
+                        <div class="modal-body">
+                            <div class="row">
+                                <p class="col"><img src="./ressource/img/html.png" alt="logo hmtl"></p>
+                                <p class="col"><img src="./ressource/img/css.png" alt="logo css"></p>
+                                <p class="col"><img src="./ressource/img/js.png" alt="logo js"></p>
+                            </div>
+                            <div class="row">
+                                <p class="col"><img src="./ressource/img/php.png" alt="logo php"></p>
+                                <p class="col"><img src="./ressource/img/github2.png" alt="logo github"></p>
+                                <p class="col"><img src="./ressource/img/bootstrap.png" alt="logo bootstrap"></p>
+                            </div>
+                            <div class="row">
+                                <p class="col"><img src="./ressource/img/materialize.png" alt="logo materialize"></p>
+                                <p class="col"><img src="./ressource/img/figma.png" alt="logo figma"></p>
+                                <p class="col"><img src="./ressource/img/adobexd.png" alt="logo adobe xd"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <h2 class="d-flex justify-content-center" id="projets">Mes projets</h2>
-    <section class="row justify-content-around">
-        <div class="col-sm-3  mb-5 card  bg-dark text-light justify-content-center" style="width: 25rem;">
-            <img class="rounded" src="./ressource/img/discussion.PNG" alt="projet discussion">
-            <div class="card-body">
-                <h5 class="card-title">Discussion</h5>
-                <p class="card-text">Ce projet est un site sur lequel j'ai crée un module de discussion.</p>
-                <a class="btn btn-success text-light" href="./projets/discussion/index.php">Voir le projet</a>
-            </div>
-        </div>
-        <div class="col-sm-3  mb-5 card bg-dark text-light" style="width: 25rem;">
-            <img class="rounded" src="./ressource/img/blog.PNG" alt="projet blog">
-            <div class="card-body">
-                <h5 class="card-title">Blog</h5>
-                <p class="card-text">Réalisation d'un blog avec page admin et possibilité d'ajouter effacer ou modifier des articles.</p>
-                <a class="btn btn-success text-light" href="./projets/blog/index.php">Voir le projet</a>
-            </div>
-        </div>
-        <div class="col-sm-3  mb-5 card bg-dark text-light" style="width: 25rem;">
-            <img class="rounded" src="./ressource/img/memory.PNG" alt="projet memory">
-            <div class="card-body ">
-                <h5 class="card-title">Memory</h5>
-                <p class="card-text">Réalisation du jeu Memory.</p>
-                <a class="btn btn-success text-light" href="./projets/memory/index.php">Voir le projet</a>
-            </div>
-        </div>
-        <div class="col-sm-3  mb-5 card bg-dark text-light" style="width: 25rem;">
-            <img class="rounded" src="./ressource/img/boutique.PNG" alt="projet boutique">
-            <div class="card-body">
-                <h5 class="card-title">Boutique</h5>
-                <p class="card-text">Nous avons réalisé avec Robin Papazian un collègue une boutique en ligne de vente de produits pour la maison.</p>
-                <a class="btn btn-success text-light" href="./projets/boutique/index.php">Voir le projet</a>
-            </div>
-        </div>
-    </section>
+            </article>
+        </section>
+        <h2 class="d-flex justify-content-center" id="projets">Mes projets</h2>
+        <section class="row justify-content-around">
+            <article class="col-sm-3  mb-5 card  bg-dark text-light justify-content-center" style="width: 25rem;">
+                <img class="rounded" src="./ressource/img/discussion.PNG" alt="projet discussion">
+                <div class="card-body">
+                    <h3 class="card-title">Discussion</h3>
+                    <p class="card-text">Ce projet est un site sur lequel j'ai crée un module de discussion.</p>
+                    <a class="btn btn-success text-light" href="./projets/discussion/index.php">Voir le projet</a>
+                </div>
+            </article>
+            <article class="col-sm-3  mb-5 card bg-dark text-light" style="width: 25rem;">
+                <img class="rounded" src="./ressource/img/blog.PNG" alt="projet blog">
+                <div class="card-body">
+                    <h3 class="card-title">Blog</h3>
+                    <p class="card-text">Réalisation d'un blog avec page admin et possibilité d'ajouter effacer ou modifier des articles.</p>
+                    <a class="btn btn-success text-light" href="./projets/blog/index.php">Voir le projet</a>
+                </div>
+            </article>
+            <article class="col-sm-3  mb-5 card bg-dark text-light" style="width: 25rem;">
+                <img class="rounded" src="./ressource/img/memory.PNG" alt="projet memory">
+                <div class="card-body ">
+                    <h3 class="card-title">Memory</h3>
+                    <p class="card-text">Réalisation du jeu Memory.</p>
+                    <a class="btn btn-success text-light" href="./projets/memory/index.php">Voir le projet</a>
+                </div>
+            </article>
+            <article class="col-sm-3  mb-5 card bg-dark text-light" style="width: 25rem;">
+                <img class="rounded" src="./ressource/img/boutique.PNG" alt="projet boutique">
+                <div class="card-body">
+                    <h3 class="card-title">Boutique</h3>
+                    <p class="card-text">Nous avons réalisé avec Robin Papazian un collègue une boutique en ligne de vente de produits pour la maison.</p>
+                    <a class="btn btn-success text-light" href="./projets/boutique/index.php">Voir le projet</a>
+                </div>
+            </article>
+        </section>
+    </main>
     <footer class="bg-dark fixed-bottom">
         <p class=" d-flex text-light justify-content-center">© 2021 Copyright : Pierre Malardier </p>
     </footer>
