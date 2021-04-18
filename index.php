@@ -6,7 +6,7 @@
     <meta name="google-site-verification" content="HSUhPqoGgzfJLLk4FdJ6nD5yJHK1ZwTUaHXLf1b2ZRc" />
     <meta name="keywords" content="Pierre Malardier, La plateforme_, dév, web,">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio de <strong>Pierre Malardier</strong> Développeur en devenir à La Plateforme_ Marseille." />
+    <meta name="description" content="Portfolio de <strong>Pierre Malardier</strong> Développeur en devenir à <trong>La Plateforme_</trong> Marseille." />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Pierre MALARDIER portfolio" />
     <meta property="og:url" content="https://pierre-malardier.students-laplateforme.io/">
