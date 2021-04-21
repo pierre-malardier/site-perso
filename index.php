@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -37,7 +37,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav">
                         <li class="nav-item">
-                            <a href="#myModal" role="button" data-toggle="modal" class="nav-link">Mes Compétences</a>
+                            <a href="#competence" role="button" class="nav-link">Mes Compétences</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#projets">Mes projets</a>
@@ -61,46 +61,41 @@
     <main>
         <section class="part1">
             <article class="description">
-                <div class="col">
-                    <p class="col justify-content-center"><img class="img-fluid" src="./ressource/img/moi.png" alt="photo portrait"></p>
-                    <h1 class="row justify-content-center m-2">Développeur Web Full Stack en devenir !!!</h1>
-                    <p class="row justify-content-center m-3"><strong>Actuellement en formation à la PLateforme_, je suis à la recherche d'une alternance pour septembre 2021 pour
-                            continuer ma deuxième année à la PLateforme_.</strong>
-                    </p>
-                </div>
-            </article>
-        </section>
-        <section class="bs-example">
-            <article id="myModal" class="modal fade" tabindex="-1">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h2 class="modal-title">Mes Compétences</h2>
-                            <a type="button" class="close text-dark" data-dismiss="modal"><i class="bi bi-x-circle-fill"></i></a>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-                                <p class="col"><img src="./ressource/img/html.png" alt="logo hmtl"></p>
-                                <p class="col"><img src="./ressource/img/css.png" alt="logo css"></p>
-                                <p class="col"><img src="./ressource/img/js.png" alt="logo js"></p>
-                            </div>
-                            <div class="row">
-                                <p class="col"><img src="./ressource/img/php.png" alt="logo php"></p>
-                                <p class="col"><img src="./ressource/img/github2.png" alt="logo github"></p>
-                                <p class="col"><img src="./ressource/img/bootstrap.png" alt="logo bootstrap"></p>
-                            </div>
-                            <div class="row">
-                                <p class="col"><img src="./ressource/img/materialize.png" alt="logo materialize"></p>
-                                <p class="col"><img src="./ressource/img/figma.png" alt="logo figma"></p>
-                                <p class="col"><img src="./ressource/img/adobexd.png" alt="logo adobe xd"></p>
-                            </div>
-                        </div>
+                <div class="container">
+                    <div class="row">
+                        <img class="col col-lg-2" src="./ressource/img/moi.png" alt="photo portrait">
+                        <h1 class="typewrite col" data-period="1500" data-type='[ "Bonjour je suis PIERRE MALARDIER.", "Développeur Web en devenir !!" ]'>
+                            <span class="wrap"></span>
+                        </h1>
                     </div>
                 </div>
+                <p id="competence" class="intro"><strong>Je suis actuellement en formation à La Plateforme_ à Marseille. La plateforme_ est un organisme de formation qui se base sur l'enseignement par projets.
+                    </strong>
+                </p>
             </article>
         </section>
-        <h2 class="d-flex justify-content-center" id="projets">Mes projets</h2>
-        <section class="row justify-content-around">
+        <section class="techno">
+            <h2 class="competences rounded d-flex justify-content-center">Mes compétences</h2>
+            <div class="container ">
+                <div class="row">
+                    <p class="col"><img src="./ressource/img/html.png" alt="logo hmtl"></p>
+                    <p class="col"><img src="./ressource/img/css.png" alt="logo css"></p>
+                    <p class="col"><img src="./ressource/img/js.png" alt="logo js"></p>
+                </div>
+                <div class="row">
+                    <p class="col"><img src="./ressource/img/php.png" alt="logo php"></p>
+                    <p class="col"><img src="./ressource/img/github2.png" alt="logo github"></p>
+                    <p class="col"><img src="./ressource/img/bootstrap.png" alt="logo bootstrap"></p>
+                </div>
+                <div class="row">
+                    <p class="col"><img src="./ressource/img/materialize.png" alt="logo materialize"></p>
+                    <p class="col"><img src="./ressource/img/figma.png" alt="logo figma"></p>
+                    <p class="col"><img src="./ressource/img/adobexd.png" alt="logo adobe xd"></p>
+                </div>
+            </div>
+        </section>
+        <h2 class=" project rounded d-flex justify-content-center" id="projets">Mes projets</h2>
+        <section class=" row justify-content-around">
             <article class="col-sm-3  mb-5 card  bg-dark text-light justify-content-center" style="width: 25rem;">
                 <img class="rounded" src="./ressource/img/discussion.PNG" alt="projet discussion">
                 <div class="card-body">
@@ -139,5 +134,6 @@
         <p class=" d-flex text-light justify-content-center">© 2021 Copyright : Pierre Malardier </p>
     </footer>
 </body>
+<script src="script.js"></script>
 
 </html>

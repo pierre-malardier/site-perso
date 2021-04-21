@@ -1,11 +1,3 @@
-.part1{
-    background-image: url(./ressource/img/nature.jfif);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    
-}
 .card{
     
     transition: transform .5s ease;
@@ -17,13 +9,9 @@
 }
 
 .description {
-    
-    margin:0 25% 0 25%;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px black;
-    opacity: 0.9;
-
+    margin:0 25% 0 10%;
+    color:#CC8A8A;
+    font-size: 1.5rem;
 }
 .navbar-brand{
     transition: transform .7s ease-in-out;
@@ -57,4 +45,30 @@
 }
 .card:hover {
     transform:scale(1.2);
+}
+.part1{
+    margin: 2% 0 2% 0;
+    height: 60vh;
+     
+  
+}
+.intro{
+    margin-left:25%;
+    
+}
+.techno{
+    background-color: black;
+    overflow: hidden;
+    height: 60vh;
+    
+}
+.competences{
+    margin: 1% 40% 1% 40%;
+    background-color:white ;
+    color:#CC8A8A;
+}
+.project{
+    margin: 1% 40% 0 40%;
+    background-color:black ;
+    color:#CC8A8A;
 }
