@@ -44,7 +44,7 @@
                             <a class="nav-link" href="#projets">Mes projets</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./ressource/CV-PIERRE-MALARDIER.pdf">CV</a>
+                            <a class="nav-link" href="./ressource/Pierre Malardier CV.pdf">CV</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
