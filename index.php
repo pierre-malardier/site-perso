@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="google-site-verification" content="HSUhPqoGgzfJLLk4FdJ6nD5yJHK1ZwTUaHXLf1b2ZRc" />
-    <meta name="keywords" content="Pierre Malardier, La plateforme_, dév, web,">
+    <meta name="author" content="Pierre Malardier" />
+    <meta name="keywords" content="Pierre Malardier, La plateforme_, dév, web, développeur, formation, alternance">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Portfolio de <strong>Pierre Malardier</strong> Développeur en devenir à <strong>La Plateforme_</strong> Marseille." />
     <meta property="og:type" content="website" />
